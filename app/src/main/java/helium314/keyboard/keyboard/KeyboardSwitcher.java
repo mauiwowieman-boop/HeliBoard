@@ -317,7 +317,8 @@ public final class KeyboardSwitcher implements KeyboardState.SwitchActions {
 
         //mwmb
         mKeyboardView.setVisibility(View.GONE); // is this just the keyboard keyboard?
-        mStripContainer.setPadding(0,0,0,50);
+        mStripContainer.setPadding(0,0,0,75);
+        // eventually make this a setting
 
         // The visibility of {@link #mKeyboardView} must be aligned with {@link #MainKeyboardFrame}.
         // @see #getVisibleKeyboardView() and
